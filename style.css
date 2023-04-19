@@ -58,7 +58,7 @@ nav ul li a:hover {
 
 .body{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1000px;
     margin: 150px 50px;
 }
@@ -71,6 +71,7 @@ nav ul li a:hover {
     text-transform:uppercase;
     text-shadow: 1px  2px #040404 ;
     margin: 100px 20px 20px 20px;
+    padding: 20px 50px 20px 70px;
     width: 480px;
     color: #f9e52e;
 }
@@ -83,6 +84,7 @@ nav ul li a:hover {
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
+    margin-left: 270px;
     align-items: center;
     justify-content: center;
 }
@@ -105,7 +107,7 @@ input{
     width: 80px;
     height: 30px;
     border-radius: 4px;
-    
+    background-color: white;
 }
 
 input[type=text]:focus {
@@ -118,6 +120,8 @@ input[type=submit]:focus {
 
 #submit:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 
 
@@ -214,5 +218,6 @@ h1 {
     font-family: 'akbarplain';
     color:  #f9e52e;
     text-shadow: 1px 2px #040404;
-    font-size: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
