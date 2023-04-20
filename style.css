@@ -73,16 +73,20 @@ nav ul li a:hover {
 }
 .text{
     font-family: 'akbarplain';
-    font-size: 25px;
+    font-size: 35px;
     text-transform:uppercase;
-    text-shadow: 2px  2px #040404 ;
+    text-shadow: 3px  3px #040404 ;
     margin: 100px 20px 20px 20px;
     padding: 20px 50px 20px 70px;
     width: 550px;
     color: #f9e52e;
+    position: absolute;
+    right: 10%;
 }
 .form{
-    background-color: aliceblue;
+    background: url(imagenes/simpsons2.jpg);
+    background-size: cover;
+    background-position: center;
     font-family: 'akbarplain';
     display: flex;
     flex-direction: column;
@@ -93,6 +97,9 @@ nav ul li a:hover {
     margin-left: 270px;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    left: 0%;
+    top: 35%;
 }
 .form h4{
     margin: 10px;
@@ -163,11 +170,14 @@ h1 {
     justify-content: center;
     margin: 250px;
     width: 820px;
-    height: 250px;
+    height: 320px;
     padding: 10px;
-    border: 3px solid black;
+    border: 2px solid #f9e52e;
     border-radius: 5px;
-    background-color: rgb(255, 255, 240);
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    right: 7%;
+    top: -5%;
 }
 .texto-img{
     font-family: 'akbarplain';
@@ -180,7 +190,7 @@ h1 {
     width: 150px;
     height: 170px;
     font-family: 'akbarplain';
-    border: 3px solid black;
+    border: 3px solid #f9e52e;
     border-radius: 5px;
     margin: 5px;
     text-align: center;
@@ -228,17 +238,23 @@ h1 {
 
 .textoCiudad {
     width: 1000px;
-    height: 300px;
+    height: 350px;
     margin: 200px 170px;
     padding: 10px;
-    border: 3px solid black;
+    border: 2px solid #f9e52e;
     border-radius: 5px;
-    background-color: rgb(255, 255, 240);
+    background-color: rgba(0,0,0,0.3);
     font-family: 'akbarplain';
     color:  #f9e52e;
     text-shadow: 1px 2px #040404;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    right: 6%;
 }
 
 .pie-pagina {
