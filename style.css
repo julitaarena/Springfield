@@ -222,7 +222,7 @@ h1 {
 
 .textoCiudad {
     width: 1000px;
-    height: 400px;
+    height: 300px;
     margin: 140px 80px;
     padding: 10px;
     border: 3px solid black;
@@ -231,10 +231,12 @@ h1 {
     font-family: 'akbarplain';
     color:  #f9e52e;
     text-shadow: 1px 2px #040404;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 .pie-pagina {
+    position: fixed;
+    bottom: 0;
     height: 70px;
     width: 100%;
     background: rgba(0,0,0,0.5);
