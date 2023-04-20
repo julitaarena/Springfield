@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html{
     background-image: url("imagenes/Springfield.jpeg");
     background-repeat: no-repeat;
@@ -6,6 +12,7 @@ html{
 body{
     margin: 0px;
 } 
+
 
 nav {
     position: fixed;
@@ -54,7 +61,6 @@ nav ul li a:hover {
     background: rgb(0,0,0,0.7);
     border-radius: 6px;
 }
-
 
 .body{
     display: flex;
@@ -234,10 +240,9 @@ h1 {
     font-size: 15px;
     text-transform: uppercase;
 }
+
 .pie-pagina {
-    position: fixed;
-    bottom: 0;
-    height: 70px;
+    height: auto;
     width: 100%;
     background: rgba(0,0,0,0.5);
     border-top: 1px solid  #f9e52e;
@@ -282,6 +287,4 @@ h1 {
     font-size: 8px;
     color: #f9e52e;
     border-top: 1px solid  #f9e52e;
-    padding: auto;
-    
 }
