@@ -234,3 +234,52 @@ h1 {
     font-size: 20px;
     text-transform: uppercase;
 }
+.pie-pagina {
+    height: 70px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    border-top: 1px solid  #f9e52e;
+}
+.logo_pie{
+    padding: auto;
+    width: 100px;
+}
+
+.logo_grupo{
+    width: 100px;
+    align-items: center;
+}
+.icon-wt{
+    width: 30px;
+    padding: 2px;
+}
+
+.icon-yt{
+    width: 30px;
+    padding: 2px;
+}
+
+.icon-fb{
+    width: 30px;
+    padding: 2px;
+}
+
+.icon-inst{
+    width: 30px;
+    padding: 2px;
+}
+
+.grupo-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.grupo-2{
+    text-align: center;
+    font-size: 8px;
+    color: #f9e52e;
+    border-top: 1px solid  #f9e52e;
+    padding: auto;
+    
+}
